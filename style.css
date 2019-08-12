@@ -1,5 +1,7 @@
-    body {
+body {
   background: #f9e933;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100%;
 }
 
 header, main, footer {
@@ -14,7 +16,12 @@ header .container, main .container, footer .container {
 header {
   background: white;
   overflow: auto;
+  padding: 10px;
 }
+
+header .options{
+  font-weight: bold;  
+  text-align: center;}
 
 header h1 {
   float: left;
@@ -29,6 +36,11 @@ header nav {
 main {
   background: white;
   overflow: auto;
+  padding: 20px;
+  padding-top: 5px;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-width: 1px;
 }
 
 main .left {
@@ -41,6 +53,10 @@ main .right {
   width: 285px;
 }
 
+footer{
+  padding: 20px;
+}
+
 footer .left {
   float: left;
   width: 570px;
@@ -49,4 +65,51 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-size: 3.0em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.sitemap h4, .contact h4{
+  padding-bottom: 10px;
+}
+h4{
+  font-size: large;
+}
+
+.content-1{
+  max-width: 520px;
+  padding-top: 40px;
+}
+
+.content-2{
+  max-width: 520px;
+  padding-top: 100px;
+}
+
+.sitemap .col-1{
+ float: right; 
+}
+
+.contact p:first-of-type {
+  font-style: italic;
 }
